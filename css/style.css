@@ -1,0 +1,280 @@
+/* --- * --- BASIC --- * --- */
+html
+{
+	/*cursor: url('../pics/pointer.png'),auto;*/
+	position: relative;
+	z-index: 0;
+	height: 100%;
+	overflow: hidden;
+}
+
+body 
+{
+	position: relative;
+	height: 100%;
+	background: linear-gradient(#ffd7f7, #ff578d);
+}
+#startDiv 
+{
+	position: relative;
+	margin:0 auto;
+}
+#logo
+{
+	max-width: 100%;
+	margin:0 auto;
+}
+#sealContainer
+{
+	position: absolute;
+	bottom: 30px;
+	left: 30px;
+}
+/* --- * --- GAME --- BASE --- * --- */
+.bgDiv 
+{
+	height: 610px;
+	width: 525px;
+	background-color: #ff9ad7;
+	border: 4px solid #4e91e6;
+	border-radius: 5px;
+	position:absolute;
+	left: 40%;
+	top:100px;
+	z-index: 1;
+}
+#lowerToolbar {
+	position: fixed;
+	bottom: 15px;
+	right: 0;
+}
+.menuDiv
+{
+	position: absolute;
+	top: 0;
+	height: 40px;
+	width: 100%;
+	background-color: #8bdafc;
+}
+
+.toolDiv
+{
+	width: 475px;
+	border-radius: 5px;
+	position: absolute;
+	top: 60px;
+	left:25px;
+}
+#diceDiv
+{
+	height: 350px;
+	width: 450px;
+	background-color: #ffd7f7;
+	border-radius: 5px;
+	position: absolute;
+	top: 140px;
+	left: 25px;
+	padding-top: 10px;
+	padding-left: 25px;
+}
+#sumDiv
+{
+	height: 69px;
+	width: 158px;
+	position: absolute;
+	bottom: 20px;
+	right: 20px;
+	overflow: hidden;
+}
+#dig1 
+{
+	position: absolute;
+	left: 0;
+}
+#dig2 
+{
+	position: absolute;
+	left: 50px;
+}
+#dig3
+{
+	position: absolute;
+	left: 100px;
+}
+/* --- * --- GAME --- BUTTONS --- * --- */
+.menuBtn 
+{
+	float:left;
+	margin-right:30px;
+}
+#addDie:hover
+{
+	content:url("../pics/dice/addinv.png");
+}
+#removeDie:hover
+{
+	content:url("../pics/dice/removeinv.png");
+}
+#endBtn 
+{
+	position: absolute;
+	top: 0;
+	right:0;
+	width:40px;
+	height:auto;
+}
+#endBtn:hover 
+{
+	cursor: pointer;	
+}
+#rollBtn
+{
+	float: right;
+	margin: 0;
+}
+#rollBtn:hover
+{
+	content:url("../pics/letsrollinv.png");
+}
+/* --- * --- CLOCK --- * --- */
+#clockMenu
+{
+	position: absolute;
+	top: 0;
+	left: 0;
+	margin: 0 auto;
+	width: 100%;
+	height: 40px;
+	background-color: #ff75c9;
+}
+#closeClockBtn
+{
+	position: absolute;
+	top: 0;
+	right: 0;
+	height: 40px;
+	width: auto;
+}
+#closeClockBtn:hover 
+{
+	cursor: pointer;
+}
+#clockBtn
+{
+	float: left;
+	margin-right: 15px;
+}
+#clockBtn:hover
+{
+	content:url("../pics/clockinv.png");
+}
+#clockDiv
+{
+	position: absolute;
+	top: 170px;
+	left: 0;
+	height: 60px;
+	padding-top: 40px;
+	width: 280px;
+	padding-bottom: 0px;
+	color: #8748b8;
+	background-color: #ff427d;
+	border: 4px solid #ff427d; 
+	border-radius: 5px;
+	overflow: hidden;
+}
+#timeElem
+{
+	position: absolute;
+	top: 42px;
+	width: 280px;
+	height: 60px;
+	overflow: hidden;
+
+}
+.clockDigit
+{
+	position: absolute;
+}
+#clockDig1
+{
+	left: 0px;	
+}
+#clockDig2
+{
+	left: 40px;
+}
+#b1
+{
+	left: 80px;
+}
+#clockDig3
+{
+	left: 100px;
+}
+#clockDig4
+{
+	left: 140px;
+}
+#b2
+{
+	left: 180px;
+}
+#clockDig5
+{
+	left: 200px;
+}
+#clockDig6
+{
+	left: 240px;
+}
+
+
+/* --- * --- BACKGROUND --- BUTTONS --- * --- */
+#newGameBtn
+{
+	float: left;
+	margin-right: 15px;
+} 
+#newGameBtn:hover
+{
+
+	content:url("../pics/play.png");
+}
+#soundBtn
+{
+	float: left;
+	margin-right: 15px;
+}
+/* --- * --- * PICS --- * --- */ 
+#ice
+{
+	position: absolute;
+	bottom: 0px;
+	left: 0px;
+	z-index: 0;
+}
+#seal
+{
+	position: absolute;
+	bottom: 55px;
+	left: 50px;
+	z-index: 1;
+}
+#talkBubble
+{
+	position: absolute;
+	bottom: 190px;
+	left: 330px;
+}
+.dice 
+{
+	float:left;
+	margin-bottom:25px;
+	margin-right:25px;
+}
+/* --- * --- * SOUND CONTROL --- * --- */
+.soundCtrl
+{
+	display:none;
+}
